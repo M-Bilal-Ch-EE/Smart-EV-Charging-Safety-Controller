@@ -176,7 +176,9 @@ Because the ATmega32 lacks a dedicated external memory controller, memory access
 
 This demonstrates low-level memory bus interfacing.
 
-![SRAM Interface](images/sram-interface.png)
+![SRAM Interface](images/sram-interface-read.png)
+
+![SRAM Interface](images/sram-interface-write.png)
 
 ---
 
@@ -214,7 +216,9 @@ During faults:
 !!FAULT:OVRVLT!!
 ```
 
-![LCD Display](images/lcd-output.png)
+![LCD Display](images/lcd-output-normal.png)
+
+![LCD Display](images/lcd-output-fault.png)
 
 ---
 
